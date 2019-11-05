@@ -1,17 +1,9 @@
-header {
-    height: 200px;
-    background-color: darkred
+header{
+	color: blue;
 }
-body {
-    background-color: seashell;
-    height: 100px;
-}
-footer {
-    background-color: seashell;
-    height: 100px;
-}
+
 .main-nav{
-	float: left;
+	float: right;
 	list-style: none;
 	margin-top: 30px;
 }
@@ -20,8 +12,9 @@ footer {
 	display: inline-block;
 
 }
+
 .main-nav li a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
@@ -35,8 +28,111 @@ footer {
 
 .main-nav li a:hover{
 	border:1px solid white;
-	background-color: darkorange;
+	background-color: rgb(32, 19, 3);
 }
+
+
+body{
+	background-image: url(../images/152582.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Roboto", sans-serif;
+}
+
+
+.footer-distributed{
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 45px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+footer a:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+
+footer a:hover .fa-linkedin {
+  color: rgb(0,119,181);
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+footer a:hover .fa-github {
+  color: purple;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.website img{
+	width: 580px;
+	height: 375px;
+	margin-top: 50px;
+	margin-left: 300px;
+	border: 1px solid;
+	position: relative;
+}
+
 .container{
 	border:2px solid black;
 	float: center;
@@ -44,3 +140,109 @@ footer {
 	width: 510px;
 	margin-left: 345px;
 }
+
+.foto-van-mezelf img{
+	width: 600px;
+	height: 390px;
+	margin-left: 300px;
+	border:2px solid white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.containerc{
+	margin-left: 200px;
+	margin-top: 30px;
+	color: white;
+}
+
+h10{
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+margin-left: 5px;	
+}
+
+h6{
+	float: right;
+	margin-right: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+
+h4{
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	margin-left: 33%;
+}
+
+h2{
+	margin-left: 5px;
+}
+
+.containerajax{
+	border:3px solid white;
+	float: center;
+	background-color: white;
+	width: 500px;
+	margin-left: 190px;
+	margin-top: 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(veld.png);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h11{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed p.footer-links a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.containercontact{
+	color: rgb(148, 25, 25);
+	border:2px solid black;
+	float: center;
+	background-color: white;
+	width: 510px;
+	margin-left: 345px;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
