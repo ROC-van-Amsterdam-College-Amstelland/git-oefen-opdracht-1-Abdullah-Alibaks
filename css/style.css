@@ -37,3 +37,10 @@ footer {
 	border:1px solid white;
 	background-color: darkorange;
 }
+.container{
+	border:2px solid black;
+	float: center;
+	background-color: white;
+	width: 510px;
+	margin-left: 345px;
+}
