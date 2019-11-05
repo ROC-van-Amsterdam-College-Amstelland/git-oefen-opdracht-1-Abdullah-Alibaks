@@ -14,11 +14,12 @@ header{
 }
 
 .main-nav li a{
-	color: white;
+	color: rgb(148, 25, 25);
 	text-decoration: none;
 	padding: 5px 20px;
-	font-family: "Roboto", sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 15px;
+	font-weight: bold;
 }
 
 .main-nav li.acitve a{
@@ -33,7 +34,7 @@ header{
 
 
 body{
-	background-image: url(../images/152582.jpg);
+	background-image: url(../images/blue-blur-color-932638.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -43,7 +44,7 @@ body{
 
 
 h1{
-	color: white;
+	color: rgb(148, 25, 25);
 	text-transform: uppercase;
 	font-size: 70px;
 	text-align: center;
@@ -105,46 +106,40 @@ h1{
 	margin-left: 3px;
 }
 
-footer a:hover .fa-facebook {
+.fa-facebook {
   color: #3b5998;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
 
-footer a:hover .fa-linkedin {
+.fa-linkedin {
   color: rgb(0,119,181);
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
-footer a:hover .fa-github {
+.fa-github {
   color: purple;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
-.website img{
-	width: 580px;
-	height: 375px;
-	margin-top: 50px;
-	margin-left: 300px;
-	border: 1px solid;
-	position: relative;
-}
 
 .container{
-	border:2px solid black;
+	color: rgb(148, 25, 25);;
+	border:2px transparent black;
+	border-radius: 15px;
 	float: center;
-	background-color: white;
+	background-color:#33383b;
 	width: 510px;
-	margin-left: 345px;
+	margin-left: 500px;
 }
 
 .foto-van-mezelf img{
-	width: 600px;
+	width: 350px;
 	height: 390px;
-	margin-left: 300px;
+	margin-left: 500px;
 	border:2px solid white;
 }
 
@@ -175,7 +170,9 @@ input[type=submit]:hover {
 .containerc{
 	margin-left: 200px;
 	margin-top: 30px;
-	color: white;
+	color: rgb(148, 25, 25);
+	font-weight: bold;
+	background-color: #33383b;
 }
 
 h10{
@@ -196,6 +193,9 @@ h4{
 	font-family: "Roboto", sans-serif;
 	font-size: 30px;
 	margin-left: 33%;
+}
+h3{
+	color: rgb(148, 25, 25);
 }
 
 h2{
@@ -229,20 +229,43 @@ h11{
 }
 .containercontact{
 	color: rgb(148, 25, 25);
-	border:2px solid black;
+	border:2px transparent black;
+	border-radius: 15px;
 	float: center;
-	background-color: white;
+	background-color:#33383b;
 	width: 510px;
 	margin-left: 345px;
 }
-.fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
-	text-align: center;
-	text-decoration: none;
+.container-project{
+	background-color:#33383b;
+	color: rgb(148, 25, 25);
+	border:2px transparent black;
+	border-radius: 15px;
+	float: left;
+	width: 510px;
+	margin-left: 1px;
+	
 }
-.fa-facebook {
-	background: #3B5998;
-	color: white;
-  }
+.projectfoto{
+	float: center;
+	width: 100px;
+	height: 50px;
+	border-image: auto;
+	background-origin: padding-box;
+	
+
+}
+.container-infobs{
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #33383b;
+	color: rgb(148, 25, 25);
+	border:2px transparent black;
+	border-radius: 15px;
+	float: left;
+	width: 510px;
+	margin-left: 1000px;
+	margin-top: 200px;
+	
+
+}
