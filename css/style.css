@@ -63,7 +63,7 @@ h1{
 	text-align: left;
 	font: normal 16px sans-serif;
 	padding: 45px 50px;
-	margin-top: 100px;
+	margin-top: 75vh;
 	background-color: grey;
 }
 
@@ -195,7 +195,7 @@ h6{
 h4{
 	font-family: "Roboto", sans-serif;
 	font-size: 30px;
-	margin-left: 33%;
+	margin-left: 30%;
 }
 h3{
 	color: rgb(148, 25, 25);
@@ -277,3 +277,46 @@ h11{
 	color: darkblue;
   }
 
+.container-hobby{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: left;
+	background-color: transparent white;
+	width: 500px;
+	margin-left: 190px;
+	margin-top: 0px;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+	color:rgb(148, 25, 25);
+	font-weight: bold;
+}
+
+.containerskill{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: right;
+	background-color: transparent white;
+	width: 500px;
+	margin-right: 150px;
+	margin-top: 0px;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color:rgb(148, 25, 25);
+
+}
+.itkennis{
+	border:3px solid #33383b;
+	border-radius: 15px;
+	float: left;
+	background-color: transparent white;
+	width: 500px;
+	margin-left: 190px;
+	margin-top: 100px;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+	color:rgb(148, 25, 25);
+
+}
