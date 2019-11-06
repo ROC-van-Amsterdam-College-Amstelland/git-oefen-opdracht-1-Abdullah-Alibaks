@@ -281,7 +281,7 @@ h11{
 	border:3px solid #33383b;
 	border-radius: 15px;
 	float: left;
-	background-color: transparent white;
+	background-color: #33383b;
 	width: 500px;
 	margin-left: 190px;
 	margin-top: 0px;
@@ -296,25 +296,26 @@ h11{
 	border:3px solid #33383b;
 	border-radius: 15px;
 	float: right;
-	background-color: transparent white;
+	background-color: #33383b;
 	width: 500px;
 	margin-right: 150px;
 	margin-top: 0px;
-    height: 70vh;
+    height: 55vh;
     background-size: cover;
     background-position: center;
-    color:rgb(148, 25, 25);
+	color:rgb(148, 25, 25);
+	font-weight: bold;
 
 }
 .itkennis{
 	border:3px solid #33383b;
 	border-radius: 15px;
 	float: left;
-	background-color: transparent white;
+	background-color: #33383b;
 	width: 500px;
-	margin-left: 190px;
+	margin-left: 165px;
 	margin-top: 100px;
-    height: 70vh;
+    height: 35vh;
     background-size: cover;
     background-position: center;
 	color:rgb(148, 25, 25);
